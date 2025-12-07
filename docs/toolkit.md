@@ -1,69 +1,68 @@
-Python Number System Calculator
-A minimal CLI program built using Python to perform number system conversions, addition, and subtraction across binary, decimal, octal, and hexadecimal.
+# Python Number System Calculator
 
-Features
-Convert numbers between binary, decimal, octal, and hexadecimal.
+A lightweight command-line tool built in Python for converting numbers across bases and performing arithmetic operations (addition and subtraction) in binary, decimal, octal, and hexadecimal formats.
 
-Perform addition and subtraction in any chosen base.
+## Features
 
-Output results in a user‑selected base.
+* Convert values between binary, decimal, octal, and hexadecimal
+* Add or subtract numbers defined in any supported base
+* Display results in a user-selected output base
+* Menu-driven interface for intuitive navigation
+* Robust input validation and exception handling
+* Designed with clarity and readability to support learners transitioning into Python
 
-Menu‑driven interface with error handling for invalid inputs.
+## Requirements
 
-Built with Python’s simplicity and readability for beginners.
+* Python 3.10 or newer
+* Ubuntu installation: `sudo apt install python3`
+* pip (bundled with Python installations)
+* Recommended editor: Visual Studio Code with the Python extension
 
-Requirements
-Python 3.10+ (Ubuntu: install via sudo apt install python3)
+## Setup Instructions
 
-pip (comes with Python)
-
-Editor: VS Code + Python extension
-
-Setup Instructions
-bash
-# Clone this repository
+```bash
+# Clone the repository
 git clone https://github.com/<your-username>/number_system_calculator
 cd number_system_calculator
 
-# Run the app
+# Run the program
 python3 NumberCalc.py
-Program runs interactively in the terminal.
+The calculator will start interactively in your terminal.
 
-Usage Flow
-Choose an operation:
+Usage Overview
+Select an operation from the menu:
 
-Convert between number systems
+Convert a number between bases
 
 Addition
 
 Subtraction
 
-Enter numbers and specify their base (binary/decimal/octal/hexadecimal).
+Enter the numeric values and the base they belong to
+(binary, decimal, octal, or hexadecimal)
 
-Choose the output base for the result.
+Select the base in which the result should be displayed
 
-View the converted or calculated output.
+Review the calculated or converted output
 
-Example:
+Example
+Input: 1011 and 110 (binary), operation: addition, output base: hexadecimal
+Output: 11
 
-Input: 1011 and 110 in binary, operation = addition, output base = hexadecimal.
-
-Output: 11.
-
-Common Issues
-Error	Solution
-python: not found	Use python3 instead of python.
-IndentationError	Ensure consistent spaces; Python enforces indentation strictly.
-ValueError: invalid literal	Input must match the chosen base (e.g., binary only allows 0/1).
-Unsupported base	Only binary, decimal, octal, or hexadecimal are supported.
+Common Issues and Solutions
+Issue	Explanation / Resolution
+python: command not found	Use python3 instead of python.
+IndentationError	Ensure that all indentation uses spaces consistently.
+ValueError: invalid literal	Input must be valid for the specified base (e.g., binary must use only 0 and 1).
+Unsupported base	Only binary, decimal, octal, and hexadecimal are implemented.
 References
-Python Docs
+Official Python Documentation
 
 Learn Python (learnpython.org)
 
 Real Python Tutorials
 
-GeeksforGeeks: Number System Conversion in Python
+GeeksforGeeks: Number System Conversion Resources
 
 Author
-Built by Jacob Sihul for the Moringa AI Capstone Project using GenAI for setup, debugging, and documentation.
+Developed by Jacob Sihul for the Moringa AI Capstone Project with assistance from GenAI for debugging, documentation, and workflow guidance.
