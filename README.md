@@ -22,8 +22,7 @@ A lightweight command-line tool built in Python for converting numbers across ba
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/number_system_calculator
-cd number_system_calculator
+
 
 # Run the program
 python3 NumberCalc.py
